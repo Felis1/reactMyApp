@@ -1,0 +1,49 @@
+.app-wrapper{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: grid;
+  grid-template-areas: 
+  "h h"
+  "n m";
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.header{
+  background-color: rebeccapurple;
+  grid-area: h;
+}
+
+.header img{
+  height: 100px; 
+  width: 100px
+}
+
+
+.nav{
+ padding-top: 20%;
+ grid-area: n;
+ background-color: salmon;
+ text-align: center;
+}
+
+.main-content{
+  grid-area: m;
+  background-color: darkgrey;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.a-wrap:hover{
+  background-color: chartreuse;
+}
+
+.content-wrapper{
+  margin-left: 2%;
+  margin-right: 2%;
+}
