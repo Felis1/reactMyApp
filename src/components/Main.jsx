@@ -7,18 +7,18 @@ const Main = () => {
     </div>
     <div class="content-wrapper">
       <div>
-        {/* ava + description */}<p> ...</p>
+        {/* ava + description */}
       </div>
       <div>
-        {/* My posts */}<p> ...</p>
+        {/* My posts */}
         <div>
-          {/* New post */}<p> ...</p>
+          {/* New post */}
           <div>
             <div>
-              {/* post 1 */}<p> ...</p>
+              {/* post 1 */}
             </div>
             <div>
-              {/* post 2 */}<p> ...</p>
+              {/* post 2 */}
             </div>
           </div>
         </div>
